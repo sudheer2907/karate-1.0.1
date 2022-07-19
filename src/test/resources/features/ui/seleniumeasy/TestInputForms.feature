@@ -1,4 +1,4 @@
-@parallel=true @TestUI1
+@parallel=true @TestInputForms
 Feature: Test Selenium Easy dummy website.
 
 Background: 
@@ -44,7 +44,6 @@ Scenario: Test Simple form demo - Radio Button
     And waitforclick(frequency, time_ms, SeleniumEasy.radioButtonDemo.btnGetCheckedValues)
     Then match text(SeleniumEasy.radioButtonDemo.labelTextRadioIsChecked) contains 'is checked'
 
-@Test
 Scenario: Test Others tab
     Given waitforclick(frequency, time_ms, SeleniumEasy.others.tabOthers)
     Then waitforclick(frequency, time_ms, SeleniumEasy.others.subTabDynamicDataLoading)

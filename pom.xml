@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.intuit.karate</groupId>
 		<artifactId>karate-parent</artifactId>
-		<version>1.0.1</version>
+		<version>1.2.0</version>
 	</parent>
-	<artifactId>karate-1.0.1</artifactId>
+	<artifactId>karate-1.2.0</artifactId>
 	<packaging>jar</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -130,9 +129,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
 				<configuration>
-					<!-- <includes>
+					<includes>
 						<include>**/*TestRunner.java</include>
-					</includes> -->
+					</includes>
 				</configuration>
 			</plugin>
 			<plugin>
